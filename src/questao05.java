@@ -30,6 +30,8 @@ public class questao05 {
         for(int i = letras.length - 1; i >= 0; i--) {
             System.out.print(letras[i] = palavra.charAt(i)); 
         }
+
+        sc.close();
     }
 
 }
